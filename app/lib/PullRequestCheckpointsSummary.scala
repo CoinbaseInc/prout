@@ -8,6 +8,7 @@ import com.madgag.git._
 import com.madgag.scalagithub.model.PullRequest
 import lib.Config.Checkpoint
 import lib.gitgithub.StateSnapshot
+import lib.labels.{Overdue, Pending, Seen, PullRequestCheckpointStatus}
 import org.eclipse.jgit.lib.Repository
 import org.eclipse.jgit.revwalk.{RevCommit, RevWalk}
 import play.api.Logger
